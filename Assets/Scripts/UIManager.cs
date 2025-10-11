@@ -6,10 +6,15 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
+    [SerializeField]
+    private SpriteAtlas _spriteAtlas;
+    [SerializeField]
+    private string _spriteName;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        GetComponent<Image>().sprite = _spriteAtlas.GetSprite(_spriteName);
     }
 
     // Update is called once per frame
