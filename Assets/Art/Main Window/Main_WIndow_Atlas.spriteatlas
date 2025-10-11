@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Main_WIndow_Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 8192
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 2
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 3a9feb5b3918be247b5644a72e46933e, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: -6909668735580853602, guid: dd8974f27b363174c9ded6b717251521, type: 3}
+  - {fileID: -366928070433023999, guid: dd8974f27b363174c9ded6b717251521, type: 3}
+  - {fileID: 4090196514469401132, guid: dd8974f27b363174c9ded6b717251521, type: 3}
+  - {fileID: -7598935476213102858, guid: dd8974f27b363174c9ded6b717251521, type: 3}
+  - {fileID: 8213511225555661949, guid: dd8974f27b363174c9ded6b717251521, type: 3}
+  - {fileID: -3825785308086421624, guid: dd8974f27b363174c9ded6b717251521, type: 3}
+  - {fileID: 7048143786296912680, guid: dd8974f27b363174c9ded6b717251521, type: 3}
+  - {fileID: -2930763629397441822, guid: dd8974f27b363174c9ded6b717251521, type: 3}
+  - {fileID: -7391333900195999360, guid: dd8974f27b363174c9ded6b717251521, type: 3}
+  - {fileID: 2771852329939141227, guid: dd8974f27b363174c9ded6b717251521, type: 3}
+  - {fileID: 3389838015149853758, guid: dd8974f27b363174c9ded6b717251521, type: 3}
+  - {fileID: 3927137121078091983, guid: dd8974f27b363174c9ded6b717251521, type: 3}
+  - {fileID: -8369408435504027595, guid: dd8974f27b363174c9ded6b717251521, type: 3}
+  - {fileID: -3022599791156392760, guid: dd8974f27b363174c9ded6b717251521, type: 3}
+  - {fileID: 8013301889882392170, guid: dd8974f27b363174c9ded6b717251521, type: 3}
+  - {fileID: 4886191884290947881, guid: dd8974f27b363174c9ded6b717251521, type: 3}
+  - {fileID: -2802327757901041585, guid: dd8974f27b363174c9ded6b717251521, type: 3}
+  - {fileID: -2199303479090841887, guid: dd8974f27b363174c9ded6b717251521, type: 3}
+  - {fileID: -2548197074125635255, guid: dd8974f27b363174c9ded6b717251521, type: 3}
+  - {fileID: 7788295273953467162, guid: dd8974f27b363174c9ded6b717251521, type: 3}
+  - {fileID: 1824081289337543047, guid: dd8974f27b363174c9ded6b717251521, type: 3}
+  - {fileID: -5890398400642661206, guid: dd8974f27b363174c9ded6b717251521, type: 3}
+  - {fileID: -7591629249930890976, guid: dd8974f27b363174c9ded6b717251521, type: 3}
+  - {fileID: -8170179753581224189, guid: dd8974f27b363174c9ded6b717251521, type: 3}
+  - {fileID: 6799974916336649345, guid: dd8974f27b363174c9ded6b717251521, type: 3}
+  - {fileID: -3612167535691645188, guid: dd8974f27b363174c9ded6b717251521, type: 3}
+  - {fileID: -140376970514209228, guid: dd8974f27b363174c9ded6b717251521, type: 3}
+  - {fileID: 3915025623140629888, guid: dd8974f27b363174c9ded6b717251521, type: 3}
+  - {fileID: 3927516367670996599, guid: dd8974f27b363174c9ded6b717251521, type: 3}
+  - {fileID: -1274935408196514865, guid: dd8974f27b363174c9ded6b717251521, type: 3}
+  - {fileID: 783583918414902858, guid: dd8974f27b363174c9ded6b717251521, type: 3}
+  - {fileID: -8403916134218014442, guid: dd8974f27b363174c9ded6b717251521, type: 3}
+  - {fileID: -8434617133111781265, guid: dd8974f27b363174c9ded6b717251521, type: 3}
+  - {fileID: -1121665759146377599, guid: dd8974f27b363174c9ded6b717251521, type: 3}
+  - {fileID: -4340446378339517608, guid: dd8974f27b363174c9ded6b717251521, type: 3}
+  - {fileID: -6710669467872110933, guid: dd8974f27b363174c9ded6b717251521, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Green Button
+  - sticker empty
+  - rolls copy 2
+  - rolls copy 2
+  - rolls copy 2
+  - 7th copy 2
+  - 7th copy 2
+  - 7th copy 2
+  - 7th copy 2
+  - 7th copy 2
+  - 7th copy 2
+  - set icon copy
+  - set icon copy
+  - set icon copy
+  - 8/12
+  - 8/12
+  - 8/12
+  - fade
+  - SET PRIZE
+  - SET PRIZE
+  - SET PRIZE
+  - Checkmark
+  - panel copy
+  - panel copy
+  - panel copy
+  - "YOU\u2019VE SELECTED "
+  - BG
+  - "only show stickers you don\u2019t have"
+  - "PICK a sticker and it\u2019s yours!"
+  - Frame
+  - ZEN BUDDHIST
+  - Logo
+  - Layer 1
+  - Layer 1
+  - Fade
+  - Red_Button
+  m_RenderDataMap: {}
+  m_Tag: Main_WIndow_Atlas
+  m_IsVariant: 0
