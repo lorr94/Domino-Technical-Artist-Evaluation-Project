@@ -23,12 +23,12 @@ SpriteAtlas:
     platformSettings:
     - serializedVersion: 3
       m_BuildTarget: DefaultTexturePlatform
-      m_MaxTextureSize: 4096
+      m_MaxTextureSize: 8192
       m_ResizeAlgorithm: 0
       m_TextureFormat: -1
-      m_TextureCompression: 1
+      m_TextureCompression: 2
       m_CompressionQuality: 50
-      m_CrunchedCompression: 0
+      m_CrunchedCompression: 1
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
       m_AndroidETC2FallbackOverride: 0
@@ -50,93 +50,23 @@ SpriteAtlas:
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
-  - {fileID: -2966541627131962953, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
-  - {fileID: 4645110293322415607, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
-  - {fileID: -13612766326315105, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
-  - {fileID: -6161304095021428134, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
-  - {fileID: -6747398882214450496, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
-  - {fileID: -1114565033705637788, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
-  - {fileID: 1252051037233485067, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
-  - {fileID: -7662380121434992581, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
-  - {fileID: 6280166178090108081, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
-  - {fileID: 7823050594666124250, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
-  - {fileID: 7706328495391621083, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
-  - {fileID: 7264290158030789904, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
-  - {fileID: 8052513399341105182, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
-  - {fileID: 3803487715225160693, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
-  - {fileID: 3377378279258419118, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
-  - {fileID: -2859935667181532540, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
-  - {fileID: 8740115306468224118, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
-  - {fileID: -4089434717753390361, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
-  - {fileID: -4602162274066527731, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
-  - {fileID: -1046512699397982494, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
-  - {fileID: 1125187323671202488, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
-  - {fileID: 1913411898041528163, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
-  - {fileID: 9012435349123564491, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
-  - {fileID: -466056214327034422, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
-  - {fileID: -5782727236596514794, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
-  - {fileID: 80281312669107358, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
-  - {fileID: 2711337939766122489, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
-  - {fileID: -8871088745018845445, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
-  - {fileID: -2580177958672163676, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
-  - {fileID: 2999013169136252528, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
-  - {fileID: 5027355737442029721, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
-  - {fileID: 6303022828751566361, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
-  - {fileID: 4132314879104754776, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
-  - {fileID: 8163045024796721146, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
-  - {fileID: 2890593613365333364, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
-  - {fileID: -7582589323066861075, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
-  - {fileID: -8079170558074944794, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
-  - {fileID: -2775779212654331410, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
-  - {fileID: 5144295409257062688, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
-  - {fileID: 4664448826061386026, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
-  - {fileID: 5967850389324408179, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
-  - {fileID: -7649221634926685495, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
-  - {fileID: -8600802122722864406, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
+  - {fileID: 7405561790971740171, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
+  - {fileID: 2504408997036891501, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
+  - {fileID: 2273053144904955770, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
+  - {fileID: -4585329538311509665, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
+  - {fileID: -7125337967564653398, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
+  - {fileID: 4115147144667542784, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
+  - {fileID: 3655504147668218268, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
+  - {fileID: 1639118513398450101, guid: d5fe425833ae8bc47a987ea86112ae46, type: 3}
   m_PackedSpriteNamesToIndex:
   - SLOT
   - crown empty
   - crown empty
   - crown empty
   - crown empty
-  - E
-  - D
-  - G
-  - F
-  - A
-  - C
-  - B
-  - M
-  - L
-  - O
-  - N
-  - I
-  - H
-  - K
-  - J
-  - U
-  - T
-  - W
-  - V
-  - Q
-  - P
-  - S
-  - R
-  - Y
-  - X
-  - Z
-  - 5
-  - 4
-  - 7
-  - 6
-  - 1
-  - 0
-  - 3
   - divider
-  - 2
-  - 9
   - texture
-  - 8
+  - ZEN BUDHIST
   m_RenderDataMap: {}
   m_Tag: Sticker_Main_Window_Atlas
   m_IsVariant: 0
