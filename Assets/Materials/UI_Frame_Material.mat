@@ -41,3 +41,4 @@ Material:
     - _FrameColor: {r: 1, g: 1, b: 1, a: 1}
     - _GlowColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
+
