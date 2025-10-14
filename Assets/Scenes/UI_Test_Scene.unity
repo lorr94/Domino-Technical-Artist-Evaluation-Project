@@ -812,6 +812,7 @@ GameObject:
   m_Component:
   - component: {fileID: 850800817}
   - component: {fileID: 850800818}
+  - component: {fileID: 850800819}
   m_Layer: 0
   m_Name: Lower_Scroll
   m_TagString: Untagged
@@ -870,6 +871,24 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &850800819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 850800816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5045fc4aacbecb74794c48336a6464ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  placementParents:
+  - {fileID: 1428151226}
+  - {fileID: 1131047560}
+  - {fileID: 1990759467}
+  - {fileID: 1831167651}
+  - {fileID: 978343082}
 --- !u!1 &978343081
 GameObject:
   m_ObjectHideFlags: 0
@@ -917,6 +936,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1010072688}
   - component: {fileID: 1010072689}
+  - component: {fileID: 1010072690}
   m_Layer: 0
   m_Name: Upper_Scroll
   m_TagString: Untagged
@@ -975,6 +995,24 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1010072690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010072687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5045fc4aacbecb74794c48336a6464ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  placementParents:
+  - {fileID: 1654909435}
+  - {fileID: 1902363998}
+  - {fileID: 3098957}
+  - {fileID: 817459744}
+  - {fileID: 1536865121}
 --- !u!1001 &1035332391
 PrefabInstance:
   m_ObjectHideFlags: 0

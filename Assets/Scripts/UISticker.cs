@@ -24,4 +24,9 @@ public class UISticker : MonoBehaviour
     {
         
     }
+
+    public void StickerClicked()
+    {
+        Debug.Log("Sticker Selected!");
+    }
 }
