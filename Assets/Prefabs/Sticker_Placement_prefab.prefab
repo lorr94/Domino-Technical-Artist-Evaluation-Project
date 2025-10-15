@@ -844,7 +844,7 @@ MonoBehaviour:
   _spriteAtlas: {fileID: 4343727234628468602, guid: 223cbe6c11cc4a94ea8ce54a2610885d,
     type: 2}
   _spriteName: SLOT
-  _confirmationMenu: {fileID: 4035599847127219530, guid: 5b4c9b3e8d09d064c9afb7ad697c8b62,
+  _confirmationMenu: {fileID: 8427454383340469428, guid: 5b4c9b3e8d09d064c9afb7ad697c8b62,
     type: 3}
 --- !u!1 &5478506796137284202
 GameObject:

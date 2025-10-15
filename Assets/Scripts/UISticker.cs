@@ -14,12 +14,15 @@ public class UISticker : MonoBehaviour
     
     public GameObject _confirmationMenu;
 
+    public ConfirmationMenuHandler confirmHandler;
+
 
     // Start is called before the first frame update
     void Start()
     {
         GetComponent<Image>().sprite = _spriteAtlas.GetSprite(_spriteName);
-        _confirmationMenu = GameObject.Find("Confirmation_Window");
+        confirmHandler = GameObject.Find("Canvas").GetComponent<ConfirmationMenuHandler>();
+        //_confirmationMenu = GameObject.Find("Confirmation_Window");
     }
 
     // Update is called once per frame
@@ -31,8 +34,13 @@ public class UISticker : MonoBehaviour
     public void StickerClicked()
     {
         Debug.Log("Sticker Selected!");
-        //set active to all children of _confirmationMenu gameObject
 
+        Instantiate(confirmHandler._confirmationMenu, confirmHandler.transform);
+        
+        
+        
+        //set active to all children of _confirmationMenu gameObject
+        /*
         for (int i = 0; i < _confirmationMenu.transform.childCount; i++)
         {
             Transform child = _confirmationMenu.transform.GetChild(i);
@@ -40,5 +48,6 @@ public class UISticker : MonoBehaviour
             // Set the child GameObject active
             child.gameObject.SetActive(true);
         }
+        */
     }
 }

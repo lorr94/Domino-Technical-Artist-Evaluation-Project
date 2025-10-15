@@ -29,13 +29,7 @@ public class UIConfirmation : MonoBehaviour
 
     public void Cancel()
     {
-        for (int i = 0; i < this.gameObject.transform.childCount; i++)
-        {
-            Transform child = this.gameObject.transform.GetChild(i);
-
-            // Set the child GameObject active
-            child.gameObject.SetActive(false);
-        }
+        Destroy(this.gameObject);
     }
 
     public void TakeSticker()
