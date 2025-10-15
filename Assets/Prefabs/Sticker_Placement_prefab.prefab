@@ -93,6 +93,7 @@ MonoBehaviour:
   _spriteAtlas: {fileID: 4343727234628468602, guid: 223cbe6c11cc4a94ea8ce54a2610885d,
     type: 2}
   _spriteName: texture
+  _confirmationMenu: {fileID: 0}
 --- !u!1 &827367237011402487
 GameObject:
   m_ObjectHideFlags: 0
@@ -186,6 +187,7 @@ MonoBehaviour:
   _spriteAtlas: {fileID: 4343727234628468602, guid: 223cbe6c11cc4a94ea8ce54a2610885d,
     type: 2}
   _spriteName: crown empty
+  _confirmationMenu: {fileID: 0}
 --- !u!1 &1242473498241253943
 GameObject:
   m_ObjectHideFlags: 0
@@ -279,6 +281,7 @@ MonoBehaviour:
   _spriteAtlas: {fileID: 4343727234628468602, guid: 223cbe6c11cc4a94ea8ce54a2610885d,
     type: 2}
   _spriteName: crown empty
+  _confirmationMenu: {fileID: 0}
 --- !u!1 &2685204618125199822
 GameObject:
   m_ObjectHideFlags: 0
@@ -372,6 +375,7 @@ MonoBehaviour:
   _spriteAtlas: {fileID: 4343727234628468602, guid: 223cbe6c11cc4a94ea8ce54a2610885d,
     type: 2}
   _spriteName: crown empty
+  _confirmationMenu: {fileID: 0}
 --- !u!1 &3029838116024036366
 GameObject:
   m_ObjectHideFlags: 0
@@ -465,6 +469,7 @@ MonoBehaviour:
   _spriteAtlas: {fileID: 4343727234628468602, guid: 223cbe6c11cc4a94ea8ce54a2610885d,
     type: 2}
   _spriteName: crown empty
+  _confirmationMenu: {fileID: 0}
 --- !u!1 &3807444115694443397
 GameObject:
   m_ObjectHideFlags: 0
@@ -558,6 +563,7 @@ MonoBehaviour:
   _spriteAtlas: {fileID: 4343727234628468602, guid: 223cbe6c11cc4a94ea8ce54a2610885d,
     type: 2}
   _spriteName: crown empty
+  _confirmationMenu: {fileID: 0}
 --- !u!1 &3946741930345135588
 GameObject:
   m_ObjectHideFlags: 0
@@ -650,6 +656,7 @@ MonoBehaviour:
   _spriteAtlas: {fileID: 4343727234628468602, guid: 223cbe6c11cc4a94ea8ce54a2610885d,
     type: 2}
   _spriteName: ZEN BUDHIST
+  _confirmationMenu: {fileID: 0}
 --- !u!1 &5045180042672441708
 GameObject:
   m_ObjectHideFlags: 0
@@ -743,6 +750,7 @@ MonoBehaviour:
   _spriteAtlas: {fileID: 4343727234628468602, guid: 223cbe6c11cc4a94ea8ce54a2610885d,
     type: 2}
   _spriteName: crown empty
+  _confirmationMenu: {fileID: 0}
 --- !u!1 &5367653198321679115
 GameObject:
   m_ObjectHideFlags: 0
@@ -836,6 +844,7 @@ MonoBehaviour:
   _spriteAtlas: {fileID: 4343727234628468602, guid: 223cbe6c11cc4a94ea8ce54a2610885d,
     type: 2}
   _spriteName: SLOT
+  _confirmationMenu: {fileID: 0}
 --- !u!1 &5478506796137284202
 GameObject:
   m_ObjectHideFlags: 0
@@ -929,6 +938,7 @@ MonoBehaviour:
   _spriteAtlas: {fileID: 4343727234628468602, guid: 223cbe6c11cc4a94ea8ce54a2610885d,
     type: 2}
   _spriteName: crown empty
+  _confirmationMenu: {fileID: 0}
 --- !u!1 &5905429184244006444
 GameObject:
   m_ObjectHideFlags: 0
@@ -1022,6 +1032,7 @@ MonoBehaviour:
   _spriteAtlas: {fileID: 4343727234628468602, guid: 223cbe6c11cc4a94ea8ce54a2610885d,
     type: 2}
   _spriteName: divider
+  _confirmationMenu: {fileID: 0}
 --- !u!1 &7054790863369634154
 GameObject:
   m_ObjectHideFlags: 0
@@ -1115,6 +1126,7 @@ MonoBehaviour:
   _spriteAtlas: {fileID: 4343727234628468602, guid: 223cbe6c11cc4a94ea8ce54a2610885d,
     type: 2}
   _spriteName: crown empty
+  _confirmationMenu: {fileID: 0}
 --- !u!1 &7913284590568560193
 GameObject:
   m_ObjectHideFlags: 0
@@ -1208,6 +1220,7 @@ MonoBehaviour:
   _spriteAtlas: {fileID: 4343727234628468602, guid: 223cbe6c11cc4a94ea8ce54a2610885d,
     type: 2}
   _spriteName: crown empty
+  _confirmationMenu: {fileID: 0}
 --- !u!1 &8809419159501326824
 GameObject:
   m_ObjectHideFlags: 0
@@ -1266,7 +1279,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1188c937975690e4d968d12dc7c4824d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stickerIndex: 5
+  stickerIndex: 4
   crownInstances:
   - {fileID: 2685204618125199822}
   - {fileID: 827367237011402487}

@@ -11,6 +11,8 @@ public class UISticker : MonoBehaviour
     private SpriteAtlas _spriteAtlas;
     [SerializeField]
     private string _spriteName;
+    
+    public GameObject _confirmationMenu;
 
 
     // Start is called before the first frame update
