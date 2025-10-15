@@ -19,6 +19,7 @@ public class UISticker : MonoBehaviour
     void Start()
     {
         GetComponent<Image>().sprite = _spriteAtlas.GetSprite(_spriteName);
+        _confirmationMenu = GameObject.Find("Confirmation_Window");
     }
 
     // Update is called once per frame
@@ -30,5 +31,6 @@ public class UISticker : MonoBehaviour
     public void StickerClicked()
     {
         Debug.Log("Sticker Selected!");
+       _confirmationMenu.SetActive(true);
     }
 }
