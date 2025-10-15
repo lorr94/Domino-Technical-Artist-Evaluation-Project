@@ -31,6 +31,14 @@ public class UISticker : MonoBehaviour
     public void StickerClicked()
     {
         Debug.Log("Sticker Selected!");
-       _confirmationMenu.SetActive(true);
+        //set active to all children of _confirmationMenu gameObject
+
+        for (int i = 0; i < _confirmationMenu.transform.childCount; i++)
+        {
+            Transform child = _confirmationMenu.transform.GetChild(i);
+
+            // Set the child GameObject active
+            child.gameObject.SetActive(true);
+        }
     }
 }
