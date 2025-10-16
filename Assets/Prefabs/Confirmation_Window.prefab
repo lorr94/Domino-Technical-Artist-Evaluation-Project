@@ -85,10 +85,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8427454382500657855}
-  - component: {fileID: 8427454382500657843}
   - component: {fileID: 8427454382500657842}
   - component: {fileID: 8427454382500657853}
   - component: {fileID: 8427454382500657852}
+  - component: {fileID: 4679064945218501715}
   m_Layer: 0
   m_Name: Green Button
   m_TagString: Untagged
@@ -116,21 +116,6 @@ RectTransform:
   m_AnchoredPosition: {x: 127.07948, y: -384.43448}
   m_SizeDelta: {x: 3.79, y: 1.7}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &8427454382500657843
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8427454382500657848}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8cd9c89458882949ab35a53f9b1ff52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _spriteAtlas: {fileID: 4343727234628468602, guid: e603f9fc6a03e4b44b3319a3064e0fe8,
-    type: 2}
-  _spriteName: Green Button
 --- !u!222 &8427454382500657842
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -225,6 +210,21 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &4679064945218501715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8427454382500657848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94d14af45a90ce243a0e60b653f8ce38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spriteAtlas: {fileID: 4343727234628468602, guid: e603f9fc6a03e4b44b3319a3064e0fe8,
+    type: 2}
+  _spriteName: Green Button
 --- !u!1 &8427454382770883331
 GameObject:
   m_ObjectHideFlags: 0
@@ -234,9 +234,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6410466489732233267}
-  - component: {fileID: 7910964092380661963}
   - component: {fileID: 5183605207604018333}
   - component: {fileID: 282109176573458915}
+  - component: {fileID: 1798048880117305695}
   m_Layer: 0
   m_Name: ZEN BUDDHIST
   m_TagString: Untagged
@@ -264,21 +264,6 @@ RectTransform:
   m_AnchoredPosition: {x: -6.5474076, y: -260.6287}
   m_SizeDelta: {x: 4.62, y: 0.72}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &7910964092380661963
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8427454382770883331}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8cd9c89458882949ab35a53f9b1ff52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _spriteAtlas: {fileID: 4343727234628468602, guid: e603f9fc6a03e4b44b3319a3064e0fe8,
-    type: 2}
-  _spriteName: ZEN BUDDHIST
 --- !u!222 &5183605207604018333
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -317,6 +302,21 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &1798048880117305695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8427454382770883331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94d14af45a90ce243a0e60b653f8ce38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spriteAtlas: {fileID: 4343727234628468602, guid: e603f9fc6a03e4b44b3319a3064e0fe8,
+    type: 2}
+  _spriteName: ZEN BUDDHIST
 --- !u!1 &8427454383092754147
 GameObject:
   m_ObjectHideFlags: 0
@@ -327,10 +327,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8427454383092754150}
   - component: {fileID: 8427454383092754145}
-  - component: {fileID: 8427454383092754149}
   - component: {fileID: 8427454383092754148}
   - component: {fileID: 8427454383092754151}
   - component: {fileID: 8427454383092754170}
+  - component: {fileID: 954246949349631706}
   m_Layer: 0
   m_Name: Red_Button
   m_TagString: Untagged
@@ -411,21 +411,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &8427454383092754149
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8427454383092754147}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8cd9c89458882949ab35a53f9b1ff52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _spriteAtlas: {fileID: 4343727234628468602, guid: e603f9fc6a03e4b44b3319a3064e0fe8,
-    type: 2}
-  _spriteName: Red_Button
 --- !u!222 &8427454383092754148
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -520,6 +505,21 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &954246949349631706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8427454383092754147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94d14af45a90ce243a0e60b653f8ce38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spriteAtlas: {fileID: 4343727234628468602, guid: e603f9fc6a03e4b44b3319a3064e0fe8,
+    type: 2}
+  _spriteName: Red_Button
 --- !u!1 &8427454383161184882
 GameObject:
   m_ObjectHideFlags: 0
@@ -529,10 +529,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5014138377297015615}
-  - component: {fileID: 5967462401878863834}
   - component: {fileID: 4495913151606264225}
   - component: {fileID: 5587607760634627654}
   - component: {fileID: 1138206816852478748}
+  - component: {fileID: 586720916106761404}
   m_Layer: 0
   m_Name: "YOU\u2019VE SELECTED "
   m_TagString: Untagged
@@ -560,21 +560,6 @@ RectTransform:
   m_AnchoredPosition: {x: -7.142641, y: -204.67802}
   m_SizeDelta: {x: 3.86, y: 0.5}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &5967462401878863834
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8427454383161184882}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8cd9c89458882949ab35a53f9b1ff52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _spriteAtlas: {fileID: 4343727234628468602, guid: e603f9fc6a03e4b44b3319a3064e0fe8,
-    type: 2}
-  _spriteName: "YOU\u2019VE SELECTED "
 --- !u!212 &4495913151606264225
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -666,6 +651,21 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &586720916106761404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8427454383161184882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94d14af45a90ce243a0e60b653f8ce38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spriteAtlas: {fileID: 4343727234628468602, guid: e603f9fc6a03e4b44b3319a3064e0fe8,
+    type: 2}
+  _spriteName: "YOU\u2019VE SELECTED "
 --- !u!1 &8427454383340469428
 GameObject:
   m_ObjectHideFlags: 0
@@ -724,5 +724,6 @@ MonoBehaviour:
     type: 3}
   redButton: {fileID: 8427454383092754170}
   greenButton: {fileID: 8427454382500657852}
-  isTaken: 0
   isStickerClickable: 0
+  initialAnimationDuration: 0.3
+  isTaken: 0

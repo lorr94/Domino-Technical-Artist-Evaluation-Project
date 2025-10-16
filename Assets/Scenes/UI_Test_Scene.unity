@@ -2517,7 +2517,7 @@ GameObject:
   - component: {fileID: 4274714582435305103}
   - component: {fileID: 4274714582435305106}
   - component: {fileID: 4274714582435305105}
-  - component: {fileID: 4274714582435305104}
+  - component: {fileID: 4274714582435305107}
   m_Layer: 0
   m_Name: Logo
   m_TagString: Untagged
@@ -2536,7 +2536,7 @@ GameObject:
   - component: {fileID: 7634725954872224099}
   - component: {fileID: 7634725954872224102}
   - component: {fileID: 7634725954872224101}
-  - component: {fileID: 7634725954872224100}
+  - component: {fileID: 7634725954872224103}
   m_Layer: 0
   m_Name: Stickers_Tick_Text
   m_TagString: Untagged
@@ -2556,7 +2556,7 @@ GameObject:
   - component: {fileID: 987562780646214713}
   - component: {fileID: 987562780646214717}
   - component: {fileID: 987562780646214716}
-  - component: {fileID: 987562780646214715}
+  - component: {fileID: 987562780646214718}
   m_Layer: 0
   m_Name: panel copy_2
   m_TagString: Untagged
@@ -2690,21 +2690,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0.88867, y: -379.96997}
   m_SizeDelta: {x: 7.79, y: 1.22}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &987562780646214715
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 710829541796731605}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8cd9c89458882949ab35a53f9b1ff52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _spriteAtlas: {fileID: 4343727234628468602, guid: ec5d62193e1867341952f9320f3fda4e,
-    type: 2}
-  _spriteName: panel copy
 --- !u!114 &987562780646214716
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2743,6 +2728,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 710829541796731605}
   m_CullTransparentMesh: 1
+--- !u!114 &987562780646214718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710829541796731605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94d14af45a90ce243a0e60b653f8ce38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spriteAtlas: {fileID: 4343727234628468602, guid: ec5d62193e1867341952f9320f3fda4e,
+    type: 2}
+  _spriteName: panel copy
 --- !u!1 &987999651093915673
 GameObject:
   m_ObjectHideFlags: 0
@@ -2754,7 +2754,7 @@ GameObject:
   - component: {fileID: 3836642444250726110}
   - component: {fileID: 3836642444250726113}
   - component: {fileID: 3836642444250726112}
-  - component: {fileID: 3836642444250726111}
+  - component: {fileID: 3836642444250726114}
   m_Layer: 0
   m_Name: SET PRIZE
   m_TagString: Untagged
@@ -2773,7 +2773,7 @@ GameObject:
   - component: {fileID: 7070332766303426706}
   - component: {fileID: 7070332766303426709}
   - component: {fileID: 7070332766303426708}
-  - component: {fileID: 7070332766303426707}
+  - component: {fileID: 7070332766303426710}
   m_Layer: 0
   m_Name: SET PRIZE_1
   m_TagString: Untagged
@@ -2792,7 +2792,7 @@ GameObject:
   - component: {fileID: 1491846437228429132}
   - component: {fileID: 1491846437228429135}
   - component: {fileID: 1491846437228429134}
-  - component: {fileID: 1491846437228429133}
+  - component: {fileID: 1491846437228429136}
   m_Layer: 0
   m_Name: rolls copy 2
   m_TagString: Untagged
@@ -2820,21 +2820,6 @@ RectTransform:
   m_AnchoredPosition: {x: 144.76, y: 263.89}
   m_SizeDelta: {x: 2.71, y: 1.11}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1491846437228429133
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1491846437228429131}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8cd9c89458882949ab35a53f9b1ff52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _spriteAtlas: {fileID: 4343727234628468602, guid: ec5d62193e1867341952f9320f3fda4e,
-    type: 2}
-  _spriteName: rolls copy 2
 --- !u!114 &1491846437228429134
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2873,6 +2858,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1491846437228429131}
   m_CullTransparentMesh: 1
+--- !u!114 &1491846437228429136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1491846437228429131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94d14af45a90ce243a0e60b653f8ce38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spriteAtlas: {fileID: 4343727234628468602, guid: ec5d62193e1867341952f9320f3fda4e,
+    type: 2}
+  _spriteName: rolls copy 2
 --- !u!1 &1839608698678464079
 GameObject:
   m_ObjectHideFlags: 0
@@ -2885,7 +2885,7 @@ GameObject:
   - component: {fileID: 6149434784302655487}
   - component: {fileID: 6149434784302655491}
   - component: {fileID: 6149434784302655490}
-  - component: {fileID: 6149434784302655489}
+  - component: {fileID: 6149434784302655492}
   m_Layer: 0
   m_Name: panel copy
   m_TagString: Untagged
@@ -2905,7 +2905,7 @@ GameObject:
   - component: {fileID: 4768398902439779011}
   - component: {fileID: 4768398902439779015}
   - component: {fileID: 4768398902439779014}
-  - component: {fileID: 4768398902439779013}
+  - component: {fileID: 4768398902439779016}
   m_Layer: 0
   m_Name: Description_Text
   m_TagString: Untagged
@@ -2925,7 +2925,7 @@ GameObject:
   - component: {fileID: 886232163488291092}
   - component: {fileID: 2525260195848315824}
   - component: {fileID: 2525260195848315823}
-  - component: {fileID: 2525260195848315822}
+  - component: {fileID: 2525260195848315825}
   m_Layer: 0
   m_Name: panel copy_1
   m_TagString: Untagged
@@ -2953,21 +2953,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0.88867, y: -72.103}
   m_SizeDelta: {x: 7.79, y: 1.22}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2525260195848315822
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2525260195848315820}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8cd9c89458882949ab35a53f9b1ff52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _spriteAtlas: {fileID: 4343727234628468602, guid: ec5d62193e1867341952f9320f3fda4e,
-    type: 2}
-  _spriteName: panel copy
 --- !u!114 &2525260195848315823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3006,6 +2991,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2525260195848315820}
   m_CullTransparentMesh: 1
+--- !u!114 &2525260195848315825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2525260195848315820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94d14af45a90ce243a0e60b653f8ce38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spriteAtlas: {fileID: 4343727234628468602, guid: ec5d62193e1867341952f9320f3fda4e,
+    type: 2}
+  _spriteName: panel copy
 --- !u!1 &2550698745520648609
 GameObject:
   m_ObjectHideFlags: 0
@@ -3017,7 +3017,7 @@ GameObject:
   - component: {fileID: 2754419363949619639}
   - component: {fileID: 2754419363949619642}
   - component: {fileID: 2754419363949619641}
-  - component: {fileID: 2754419363949619640}
+  - component: {fileID: 2754419363949619643}
   m_Layer: 0
   m_Name: rolls copy 2_1
   m_TagString: Untagged
@@ -3045,21 +3045,6 @@ RectTransform:
   m_AnchoredPosition: {x: 144.76, y: -61.15}
   m_SizeDelta: {x: 2.71, y: 1.11}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2754419363949619640
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2550698745520648609}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8cd9c89458882949ab35a53f9b1ff52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _spriteAtlas: {fileID: 4343727234628468602, guid: ec5d62193e1867341952f9320f3fda4e,
-    type: 2}
-  _spriteName: rolls copy 2
 --- !u!114 &2754419363949619641
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3098,6 +3083,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2550698745520648609}
   m_CullTransparentMesh: 1
+--- !u!114 &2754419363949619643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2550698745520648609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94d14af45a90ce243a0e60b653f8ce38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spriteAtlas: {fileID: 4343727234628468602, guid: ec5d62193e1867341952f9320f3fda4e,
+    type: 2}
+  _spriteName: rolls copy 2
 --- !u!224 &3836642444250726110
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3118,21 +3118,6 @@ RectTransform:
   m_AnchoredPosition: {x: -22.795, y: 261.82}
   m_SizeDelta: {x: 0.73, y: 0.64}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &3836642444250726111
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 987999651093915673}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8cd9c89458882949ab35a53f9b1ff52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _spriteAtlas: {fileID: 4343727234628468602, guid: ec5d62193e1867341952f9320f3fda4e,
-    type: 2}
-  _spriteName: SET PRIZE
 --- !u!114 &3836642444250726112
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3171,6 +3156,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 987999651093915673}
   m_CullTransparentMesh: 1
+--- !u!114 &3836642444250726114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 987999651093915673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94d14af45a90ce243a0e60b653f8ce38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spriteAtlas: {fileID: 4343727234628468602, guid: ec5d62193e1867341952f9320f3fda4e,
+    type: 2}
+  _spriteName: SET PRIZE
 --- !u!1 &3903783171723398729
 GameObject:
   m_ObjectHideFlags: 0
@@ -3182,7 +3182,7 @@ GameObject:
   - component: {fileID: 8292965343682382567}
   - component: {fileID: 8292965343682382570}
   - component: {fileID: 8292965343682382569}
-  - component: {fileID: 8292965343682382568}
+  - component: {fileID: 8292965343682382571}
   m_Layer: 0
   m_Name: rolls copy 2_2
   m_TagString: Untagged
@@ -3210,21 +3210,6 @@ RectTransform:
   m_AnchoredPosition: {x: -5.0323, y: 477.92007}
   m_SizeDelta: {x: 5.95, y: 3.38}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &4274714582435305104
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 418587582283375421}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8cd9c89458882949ab35a53f9b1ff52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _spriteAtlas: {fileID: 4343727234628468602, guid: ec5d62193e1867341952f9320f3fda4e,
-    type: 2}
-  _spriteName: Logo
 --- !u!114 &4274714582435305105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3263,6 +3248,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 418587582283375421}
   m_CullTransparentMesh: 1
+--- !u!114 &4274714582435305107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 418587582283375421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94d14af45a90ce243a0e60b653f8ce38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spriteAtlas: {fileID: 4343727234628468602, guid: ec5d62193e1867341952f9320f3fda4e,
+    type: 2}
+  _spriteName: Logo
 --- !u!1 &4299283009228188280
 GameObject:
   m_ObjectHideFlags: 0
@@ -3274,7 +3274,7 @@ GameObject:
   - component: {fileID: 8714234992136000768}
   - component: {fileID: 8714234992136000771}
   - component: {fileID: 8714234992136000770}
-  - component: {fileID: 8714234992136000769}
+  - component: {fileID: 8714234992136000772}
   m_Layer: 0
   m_Name: 8/12_1
   m_TagString: Untagged
@@ -3355,21 +3355,6 @@ RectTransform:
   m_AnchoredPosition: {x: -0.88867, y: 390}
   m_SizeDelta: {x: 7.03, y: 0.49}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &4768398902439779013
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2523257710429492213}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8cd9c89458882949ab35a53f9b1ff52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _spriteAtlas: {fileID: 4343727234628468602, guid: ec5d62193e1867341952f9320f3fda4e,
-    type: 2}
-  _spriteName: "PICK a sticker and it\u2019s yours!"
 --- !u!114 &4768398902439779014
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3408,6 +3393,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2523257710429492213}
   m_CullTransparentMesh: 1
+--- !u!114 &4768398902439779016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2523257710429492213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94d14af45a90ce243a0e60b653f8ce38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spriteAtlas: {fileID: 4343727234628468602, guid: ec5d62193e1867341952f9320f3fda4e,
+    type: 2}
+  _spriteName: "PICK a sticker and it\u2019s yours!"
 --- !u!1 &5147045442326716228
 GameObject:
   m_ObjectHideFlags: 0
@@ -3438,7 +3438,7 @@ GameObject:
   - component: {fileID: 5404580363391107006}
   - component: {fileID: 5404580363391107009}
   - component: {fileID: 5404580363391107008}
-  - component: {fileID: 5404580363391107007}
+  - component: {fileID: 5404580363391107010}
   m_Layer: 0
   m_Name: Checkmark
   m_TagString: Untagged
@@ -3466,21 +3466,6 @@ RectTransform:
   m_AnchoredPosition: {x: -206.63, y: -496.9}
   m_SizeDelta: {x: 0.92, y: 0.83}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &5404580363391107007
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5404580363391107005}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8cd9c89458882949ab35a53f9b1ff52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _spriteAtlas: {fileID: 4343727234628468602, guid: ec5d62193e1867341952f9320f3fda4e,
-    type: 2}
-  _spriteName: Checkmark
 --- !u!114 &5404580363391107008
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3519,6 +3504,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5404580363391107005}
   m_CullTransparentMesh: 1
+--- !u!114 &5404580363391107010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5404580363391107005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94d14af45a90ce243a0e60b653f8ce38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spriteAtlas: {fileID: 4343727234628468602, guid: ec5d62193e1867341952f9320f3fda4e,
+    type: 2}
+  _spriteName: Checkmark
 --- !u!1 &6079775967167137926
 GameObject:
   m_ObjectHideFlags: 0
@@ -3530,7 +3530,7 @@ GameObject:
   - component: {fileID: 7326081896961545558}
   - component: {fileID: 7326081896961545561}
   - component: {fileID: 7326081896961545560}
-  - component: {fileID: 7326081896961545559}
+  - component: {fileID: 7326081896961545562}
   m_Layer: 0
   m_Name: SET PRIZE_2
   m_TagString: Untagged
@@ -3684,21 +3684,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0.88867, y: 252.94}
   m_SizeDelta: {x: 7.79, y: 1.22}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &6149434784302655489
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1839608698678464079}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8cd9c89458882949ab35a53f9b1ff52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _spriteAtlas: {fileID: 4343727234628468602, guid: ec5d62193e1867341952f9320f3fda4e,
-    type: 2}
-  _spriteName: panel copy
 --- !u!114 &6149434784302655490
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3737,6 +3722,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1839608698678464079}
   m_CullTransparentMesh: 1
+--- !u!114 &6149434784302655492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839608698678464079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94d14af45a90ce243a0e60b653f8ce38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spriteAtlas: {fileID: 4343727234628468602, guid: ec5d62193e1867341952f9320f3fda4e,
+    type: 2}
+  _spriteName: panel copy
 --- !u!1 &6319218012973061383
 GameObject:
   m_ObjectHideFlags: 0
@@ -3748,7 +3748,7 @@ GameObject:
   - component: {fileID: 6319218012973061384}
   - component: {fileID: 6319218012973061387}
   - component: {fileID: 6319218012973061386}
-  - component: {fileID: 6319218012973061385}
+  - component: {fileID: 6319218012973061388}
   m_Layer: 0
   m_Name: Background
   m_TagString: Untagged
@@ -3776,21 +3776,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -45.2}
   m_SizeDelta: {x: 9.69, y: 13.61}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &6319218012973061385
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6319218012973061383}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8cd9c89458882949ab35a53f9b1ff52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _spriteAtlas: {fileID: 4343727234628468602, guid: ec5d62193e1867341952f9320f3fda4e,
-    type: 2}
-  _spriteName: BG
 --- !u!114 &6319218012973061386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3829,6 +3814,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6319218012973061383}
   m_CullTransparentMesh: 1
+--- !u!114 &6319218012973061388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6319218012973061383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94d14af45a90ce243a0e60b653f8ce38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spriteAtlas: {fileID: 4343727234628468602, guid: ec5d62193e1867341952f9320f3fda4e,
+    type: 2}
+  _spriteName: BG
 --- !u!1 &6697914725518664593
 GameObject:
   m_ObjectHideFlags: 0
@@ -3840,7 +3840,7 @@ GameObject:
   - component: {fileID: 6697914725518664594}
   - component: {fileID: 6697914725518664597}
   - component: {fileID: 6697914725518664596}
-  - component: {fileID: 6697914725518664595}
+  - component: {fileID: 6697914725518664598}
   m_Layer: 0
   m_Name: set icon copy_2
   m_TagString: Untagged
@@ -3868,21 +3868,6 @@ RectTransform:
   m_AnchoredPosition: {x: -200.71, y: -372.26996}
   m_SizeDelta: {x: 1.46, y: 1.5}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &6697914725518664595
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6697914725518664593}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8cd9c89458882949ab35a53f9b1ff52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _spriteAtlas: {fileID: 4343727234628468602, guid: ec5d62193e1867341952f9320f3fda4e,
-    type: 2}
-  _spriteName: set icon copy
 --- !u!114 &6697914725518664596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3921,6 +3906,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6697914725518664593}
   m_CullTransparentMesh: 1
+--- !u!114 &6697914725518664598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6697914725518664593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94d14af45a90ce243a0e60b653f8ce38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spriteAtlas: {fileID: 4343727234628468602, guid: ec5d62193e1867341952f9320f3fda4e,
+    type: 2}
+  _spriteName: set icon copy
 --- !u!224 &7070332766303426706
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3941,21 +3941,6 @@ RectTransform:
   m_AnchoredPosition: {x: -22.795, y: -63.221}
   m_SizeDelta: {x: 0.73, y: 0.64}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &7070332766303426707
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1060502224330627238}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8cd9c89458882949ab35a53f9b1ff52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _spriteAtlas: {fileID: 4343727234628468602, guid: ec5d62193e1867341952f9320f3fda4e,
-    type: 2}
-  _spriteName: SET PRIZE
 --- !u!114 &7070332766303426708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3994,6 +3979,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1060502224330627238}
   m_CullTransparentMesh: 1
+--- !u!114 &7070332766303426710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060502224330627238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94d14af45a90ce243a0e60b653f8ce38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spriteAtlas: {fileID: 4343727234628468602, guid: ec5d62193e1867341952f9320f3fda4e,
+    type: 2}
+  _spriteName: SET PRIZE
 --- !u!1 &7274192095715791822
 GameObject:
   m_ObjectHideFlags: 0
@@ -4005,7 +4005,7 @@ GameObject:
   - component: {fileID: 7274192095715791823}
   - component: {fileID: 7274192095715791826}
   - component: {fileID: 7274192095715791825}
-  - component: {fileID: 7274192095715791824}
+  - component: {fileID: 7274192095715791827}
   m_Layer: 0
   m_Name: set icon copy_1
   m_TagString: Untagged
@@ -4033,21 +4033,6 @@ RectTransform:
   m_AnchoredPosition: {x: -200.71, y: -64.404}
   m_SizeDelta: {x: 1.46, y: 1.5}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &7274192095715791824
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7274192095715791822}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8cd9c89458882949ab35a53f9b1ff52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _spriteAtlas: {fileID: 4343727234628468602, guid: ec5d62193e1867341952f9320f3fda4e,
-    type: 2}
-  _spriteName: set icon copy
 --- !u!114 &7274192095715791825
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4086,6 +4071,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7274192095715791822}
   m_CullTransparentMesh: 1
+--- !u!114 &7274192095715791827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7274192095715791822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94d14af45a90ce243a0e60b653f8ce38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spriteAtlas: {fileID: 4343727234628468602, guid: ec5d62193e1867341952f9320f3fda4e,
+    type: 2}
+  _spriteName: set icon copy
 --- !u!224 &7326081896961545558
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4106,21 +4106,6 @@ RectTransform:
   m_AnchoredPosition: {x: -22.795, y: -371.08994}
   m_SizeDelta: {x: 0.73, y: 0.64}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &7326081896961545559
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6079775967167137926}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8cd9c89458882949ab35a53f9b1ff52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _spriteAtlas: {fileID: 4343727234628468602, guid: ec5d62193e1867341952f9320f3fda4e,
-    type: 2}
-  _spriteName: SET PRIZE
 --- !u!114 &7326081896961545560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4159,6 +4144,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6079775967167137926}
   m_CullTransparentMesh: 1
+--- !u!114 &7326081896961545562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6079775967167137926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94d14af45a90ce243a0e60b653f8ce38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spriteAtlas: {fileID: 4343727234628468602, guid: ec5d62193e1867341952f9320f3fda4e,
+    type: 2}
+  _spriteName: SET PRIZE
 --- !u!224 &7634725954872224099
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4179,21 +4179,6 @@ RectTransform:
   m_AnchoredPosition: {x: 19.241, y: -498.09}
   m_SizeDelta: {x: 6.47, y: 0.37}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &7634725954872224100
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 491792719935142090}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8cd9c89458882949ab35a53f9b1ff52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _spriteAtlas: {fileID: 4343727234628468602, guid: ec5d62193e1867341952f9320f3fda4e,
-    type: 2}
-  _spriteName: "only show stickers you don\u2019t have"
 --- !u!114 &7634725954872224101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4232,6 +4217,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 491792719935142090}
   m_CullTransparentMesh: 1
+--- !u!114 &7634725954872224103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 491792719935142090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94d14af45a90ce243a0e60b653f8ce38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spriteAtlas: {fileID: 4343727234628468602, guid: ec5d62193e1867341952f9320f3fda4e,
+    type: 2}
+  _spriteName: "only show stickers you don\u2019t have"
 --- !u!1 &8263515911254231608
 GameObject:
   m_ObjectHideFlags: 0
@@ -4243,7 +4243,7 @@ GameObject:
   - component: {fileID: 8600665788265038878}
   - component: {fileID: 8600665788265038881}
   - component: {fileID: 8600665788265038880}
-  - component: {fileID: 8600665788265038879}
+  - component: {fileID: 8600665788265038882}
   m_Layer: 0
   m_Name: set icon copy
   m_TagString: Untagged
@@ -4271,21 +4271,6 @@ RectTransform:
   m_AnchoredPosition: {x: 144.76, y: -369.01996}
   m_SizeDelta: {x: 2.71, y: 1.11}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &8292965343682382568
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3903783171723398729}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8cd9c89458882949ab35a53f9b1ff52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _spriteAtlas: {fileID: 4343727234628468602, guid: ec5d62193e1867341952f9320f3fda4e,
-    type: 2}
-  _spriteName: rolls copy 2
 --- !u!114 &8292965343682382569
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4324,6 +4309,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3903783171723398729}
   m_CullTransparentMesh: 1
+--- !u!114 &8292965343682382571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3903783171723398729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94d14af45a90ce243a0e60b653f8ce38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spriteAtlas: {fileID: 4343727234628468602, guid: ec5d62193e1867341952f9320f3fda4e,
+    type: 2}
+  _spriteName: rolls copy 2
 --- !u!1 &8299506856139931364
 GameObject:
   m_ObjectHideFlags: 0
@@ -4335,7 +4335,7 @@ GameObject:
   - component: {fileID: 8892643328491219955}
   - component: {fileID: 8892643328491219958}
   - component: {fileID: 8892643328491219957}
-  - component: {fileID: 8892643328491219956}
+  - component: {fileID: 8892643328491219959}
   m_Layer: 0
   m_Name: 8/12
   m_TagString: Untagged
@@ -4354,7 +4354,7 @@ GameObject:
   - component: {fileID: 8524239784259965895}
   - component: {fileID: 8524239784259965898}
   - component: {fileID: 8524239784259965897}
-  - component: {fileID: 8524239784259965896}
+  - component: {fileID: 8524239784259965899}
   m_Layer: 0
   m_Name: 8/12_2
   m_TagString: Untagged
@@ -4382,21 +4382,6 @@ RectTransform:
   m_AnchoredPosition: {x: -113.08, y: -371.39}
   m_SizeDelta: {x: 0.84, y: 0.45}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &8524239784259965896
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8524239784259965894}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8cd9c89458882949ab35a53f9b1ff52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _spriteAtlas: {fileID: 4343727234628468602, guid: ec5d62193e1867341952f9320f3fda4e,
-    type: 2}
-  _spriteName: 8/12
 --- !u!114 &8524239784259965897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4435,6 +4420,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8524239784259965894}
   m_CullTransparentMesh: 1
+--- !u!114 &8524239784259965899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8524239784259965894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94d14af45a90ce243a0e60b653f8ce38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spriteAtlas: {fileID: 4343727234628468602, guid: ec5d62193e1867341952f9320f3fda4e,
+    type: 2}
+  _spriteName: 8/12
 --- !u!224 &8600665788265038878
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4455,21 +4455,6 @@ RectTransform:
   m_AnchoredPosition: {x: -200.71, y: 260.63}
   m_SizeDelta: {x: 1.46, y: 1.5}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &8600665788265038879
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8263515911254231608}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8cd9c89458882949ab35a53f9b1ff52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _spriteAtlas: {fileID: 4343727234628468602, guid: ec5d62193e1867341952f9320f3fda4e,
-    type: 2}
-  _spriteName: set icon copy
 --- !u!114 &8600665788265038880
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4508,6 +4493,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8263515911254231608}
   m_CullTransparentMesh: 1
+--- !u!114 &8600665788265038882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8263515911254231608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94d14af45a90ce243a0e60b653f8ce38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spriteAtlas: {fileID: 4343727234628468602, guid: ec5d62193e1867341952f9320f3fda4e,
+    type: 2}
+  _spriteName: set icon copy
 --- !u!224 &8714234992136000768
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4528,21 +4528,6 @@ RectTransform:
   m_AnchoredPosition: {x: -113.08, y: -63.518}
   m_SizeDelta: {x: 0.84, y: 0.45}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &8714234992136000769
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4299283009228188280}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8cd9c89458882949ab35a53f9b1ff52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _spriteAtlas: {fileID: 4343727234628468602, guid: ec5d62193e1867341952f9320f3fda4e,
-    type: 2}
-  _spriteName: 8/12
 --- !u!114 &8714234992136000770
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4581,6 +4566,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4299283009228188280}
   m_CullTransparentMesh: 1
+--- !u!114 &8714234992136000772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4299283009228188280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94d14af45a90ce243a0e60b653f8ce38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spriteAtlas: {fileID: 4343727234628468602, guid: ec5d62193e1867341952f9320f3fda4e,
+    type: 2}
+  _spriteName: 8/12
 --- !u!224 &8892643328491219955
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4601,21 +4601,6 @@ RectTransform:
   m_AnchoredPosition: {x: -113.08, y: 261.52}
   m_SizeDelta: {x: 0.84, y: 0.45}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &8892643328491219956
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8299506856139931364}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8cd9c89458882949ab35a53f9b1ff52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _spriteAtlas: {fileID: 4343727234628468602, guid: ec5d62193e1867341952f9320f3fda4e,
-    type: 2}
-  _spriteName: 8/12
 --- !u!114 &8892643328491219957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4654,3 +4639,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8299506856139931364}
   m_CullTransparentMesh: 1
+--- !u!114 &8892643328491219959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8299506856139931364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94d14af45a90ce243a0e60b653f8ce38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spriteAtlas: {fileID: 4343727234628468602, guid: ec5d62193e1867341952f9320f3fda4e,
+    type: 2}
+  _spriteName: 8/12
