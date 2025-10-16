@@ -720,6 +720,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8216ab3953815843a0abd0729cc3993, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTaken: 0
-  confirmationSticker: {fileID: 3656196659488057600, guid: f80a07037fe6e234b8f508a4b72ba24b,
+  confirmationStickerPrefab: {fileID: 3656196659488057600, guid: f80a07037fe6e234b8f508a4b72ba24b,
     type: 3}
+  redButton: {fileID: 8427454383092754170}
+  greenButton: {fileID: 8427454382500657852}
+  isTaken: 0
+  isStickerClickable: 0

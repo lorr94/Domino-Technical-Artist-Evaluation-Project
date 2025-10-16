@@ -1,46 +1,138 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI; // Required for Image, Button
 
 public class UIConfirmation : MonoBehaviour
 {
+    [Header("UI Elements")]
+    public GameObject confirmationStickerPrefab; // Should be the sticker prefab
+    public Button redButton;
+    public Button greenButton;
+
+    // Runtime references
+    private GameObject currentStickerInstance;
+    private Animator stickerAnimator;
+    private Button stickerButton;
+
+    // Animation/State settings
+    private const string CONFIRMATION_ANIMATION_TRIGGER = "Collect";
+    public bool isStickerClickable = false;
+    public float initialAnimationDuration = 0.3f; // Duration for A-to-B movement
+
+    // State flag
     public bool isTaken = false;
 
-    public GameObject confirmationSticker;
+    // *************************************************************
+    // REMOVE THE OLD Start() METHOD: Sticker cannot be instantiated here!
+    // *************************************************************
 
-
-    // Start is called before the first frame update
-    void Start()
+    // This method is called by UISticker right after the menu is instantiated.
+    public void Initialize(Vector3 startWorldPosition, Sprite stickerSprite)
     {
-        Instantiate(confirmationSticker, this.transform);
-    }
+        // 1. Instantiate the STICKER as a child of this Confirmation menu
+        currentStickerInstance = Instantiate(confirmationStickerPrefab, this.transform);
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (isTaken == true)
+        // 2. Set Initial Position (A)
+        RectTransform targetStickerRect = currentStickerInstance.GetComponent<RectTransform>();
+        if (targetStickerRect != null)
         {
-            //set both red and green buttons inactive
-            //can click to collect sticker
-            //confirmation menu dissapears
-            //isTaken bool back to false
+            // Store the final position (B) based on prefab layout
+            Vector3 finalPosition = targetStickerRect.position;
+
+            // Move sticker to the starting position (A)
+            targetStickerRect.position = startWorldPosition;
+
+            // Start the A-to-B animation Coroutine
+            StartCoroutine(AnimateStickerPosition(targetStickerRect, finalPosition));
         }
 
+        // 3. Set Sprite and References
+        Image stickerImage = currentStickerInstance.GetComponent<Image>();
+        if (stickerImage != null) stickerImage.sprite = stickerSprite;
 
+        stickerAnimator = currentStickerInstance.GetComponent<Animator>();
+        stickerButton = currentStickerInstance.GetComponent<Button>();
 
+        // Setup sticker button interaction
+        if (stickerButton != null)
+        {
+            stickerButton.interactable = false; // Initially not clickable
+            stickerButton.onClick.AddListener(DestroyMenu);
+        }
     }
 
-
-
-    public void Cancel()
+    // Coroutine for the A-to-B movement
+    private IEnumerator AnimateStickerPosition(RectTransform stickerRect, Vector3 endPosition)
     {
-        Destroy(this.gameObject);
+        float elapsed = 0f;
+        Vector3 startPosition = stickerRect.position;
+
+        while (elapsed < initialAnimationDuration)
+        {
+            elapsed += Time.deltaTime;
+            float t = elapsed / initialAnimationDuration;
+
+            // Optional: Smooth Step for easing
+            float smoothT = t * t * (3f - 2f * t);
+
+            stickerRect.position = Vector3.Lerp(startPosition, endPosition, smoothT);
+            yield return null;
+        }
+
+        stickerRect.position = endPosition;
     }
 
     public void TakeSticker()
     {
-        Debug.Log("Sticker Taken!");
+        Debug.Log("Sticker Taken! Starting Collection Animation.");
         isTaken = true;
 
+        // 1. Disable the confirmation buttons
+        if (redButton != null) redButton.interactable = false;
+        if (greenButton != null) greenButton.interactable = false;
+
+        // 2. Start the animation you created in the Animator
+        if (stickerAnimator != null)
+        {
+            // We assume the animation plays and is the trigger for the final click
+            stickerAnimator.SetTrigger(CONFIRMATION_ANIMATION_TRIGGER);
+
+            // Start a coroutine to wait for the animation to enable the click
+            StartCoroutine(EnableStickerClickAfterAnimation(stickerAnimator.GetCurrentAnimatorStateInfo(0).length));
+        }
+        else
+        {
+            // Fallback: If no animator, allow immediate collection
+            EnableStickerClick();
+        }
     }
+
+    private IEnumerator EnableStickerClickAfterAnimation(float duration)
+    {
+        yield return new WaitForSeconds(duration);
+        EnableStickerClick();
+    }
+
+    private void EnableStickerClick()
+    {
+        if (stickerButton != null)
+        {
+            stickerButton.interactable = true;
+            isStickerClickable = true;
+            Debug.Log("Sticker is now collectible (clickable).");
+        }
+    }
+
+    public void Cancel()
+    {
+        DestroyMenu();
+    }
+
+    public void DestroyMenu()
+    {
+        Destroy(this.gameObject);
+    }
+
+    // (Update method removed for brevity, assuming no continuous logic is needed there)
 }

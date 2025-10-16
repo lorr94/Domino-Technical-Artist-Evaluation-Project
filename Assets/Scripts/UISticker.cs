@@ -6,48 +6,62 @@ using UnityEngine.UI;
 
 public class UISticker : MonoBehaviour
 {
-
     [SerializeField]
     private SpriteAtlas _spriteAtlas;
     [SerializeField]
     private string _spriteName;
-    
-    public GameObject _confirmationMenu;
 
+    // These fields are redundant if using the Handler pattern, but kept for compatibility.
+    // public GameObject _confirmationMenu; 
     public ConfirmationMenuHandler confirmHandler;
+
+    private Image stickerImage;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        GetComponent<Image>().sprite = _spriteAtlas.GetSprite(_spriteName);
-        confirmHandler = GameObject.Find("Canvas").GetComponent<ConfirmationMenuHandler>();
-        //_confirmationMenu = GameObject.Find("Confirmation_Window");
+        stickerImage = GetComponent<Image>();
+        stickerImage.sprite = _spriteAtlas.GetSprite(_spriteName);
+
+        // Finding the handler: Use FindObjectOfType for cleaner code than GameObject.Find("Canvas")
+        confirmHandler = FindObjectOfType<ConfirmationMenuHandler>();
+        if (confirmHandler == null)
+        {
+            Debug.LogError("ConfirmationMenuHandler not found in scene!");
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        // ...
     }
 
     public void StickerClicked()
     {
-        Debug.Log("Sticker Selected!");
+        Debug.Log("Sticker Selected! Instantiating menu...");
 
-        Instantiate(confirmHandler._confirmationMenu, confirmHandler.transform);
-        
-        
-        
-        //set active to all children of _confirmationMenu gameObject
-        /*
-        for (int i = 0; i < _confirmationMenu.transform.childCount; i++)
+        if (confirmHandler != null && confirmHandler._confirmationMenu != null)
         {
-            Transform child = _confirmationMenu.transform.GetChild(i);
+            // 1. Instantiate the Confirmation Menu (Panel)
+            GameObject confirmationMenuInstance = Instantiate(
+                confirmHandler._confirmationMenu,
+                confirmHandler.transform
+            );
 
-            // Set the child GameObject active
-            child.gameObject.SetActive(true);
+            // 2. Get the UIConfirmation script from the newly created menu instance
+            UIConfirmation uiConfirmation = confirmationMenuInstance.GetComponent<UIConfirmation>();
+
+            if (uiConfirmation != null)
+            {
+                // 3. CALL the initialization method, passing the required data.
+                // This call triggers the sticker instantiation and A-to-B animation.
+                uiConfirmation.Initialize(
+                    this.transform.position,    // The start position (A)
+                    stickerImage.sprite         // The sprite to display
+                );
+            }
         }
-        */
     }
 }
