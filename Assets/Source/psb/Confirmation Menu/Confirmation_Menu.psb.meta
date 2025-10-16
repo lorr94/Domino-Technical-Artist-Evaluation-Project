@@ -141,10 +141,10 @@ ScriptedImporter:
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
+    border: {x: 78, y: 43, z: 49, w: 38}
     rect:
       serializedVersion: 2
-      x: 593
+      x: 594
       y: 4
       width: 379
       height: 170
@@ -163,7 +163,7 @@ ScriptedImporter:
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
+    border: {x: 71, y: 48, z: 52, w: 34}
     rect:
       serializedVersion: 2
       x: 593
@@ -185,7 +185,7 @@ ScriptedImporter:
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
+    border: {x: 58, y: 77, z: 60, w: 141}
     rect:
       serializedVersion: 2
       x: 4
