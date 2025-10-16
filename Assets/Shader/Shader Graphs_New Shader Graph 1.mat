@@ -43,8 +43,8 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _Offset: {r: -0.03, g: -0.01, b: 0, a: 0}
-    - _Tiling: {r: 0.57, g: 0, b: 0, a: 0}
+    - _Offset: {r: 0, g: 0.01, b: 0, a: 0}
+    - _Tiling: {r: 0.92, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &1297387699585591348
 MonoBehaviour:
