@@ -25,6 +25,9 @@ public class UIConfirmation : MonoBehaviour
             //confirmation menu dissapears
             //isTaken bool back to false
         }
+
+
+
     }
 
 
