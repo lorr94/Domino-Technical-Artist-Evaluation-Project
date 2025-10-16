@@ -89,8 +89,11 @@ public class UIConfirmation : MonoBehaviour
         isTaken = true;
 
         // 1. Disable the confirmation buttons
-        if (redButton != null) redButton.interactable = false;
-        if (greenButton != null) greenButton.interactable = false;
+        //if (redButton != null) redButton.interactable = false;
+        // if (greenButton != null) greenButton.interactable = false;
+
+        Destroy(redButton.gameObject);
+        Destroy(greenButton.gameObject);
 
         // 2. Start the animation you created in the Animator
         if (stickerAnimator != null)
