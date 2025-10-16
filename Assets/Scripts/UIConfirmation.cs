@@ -6,11 +6,13 @@ public class UIConfirmation : MonoBehaviour
 {
     public bool isTaken = false;
 
+    public GameObject confirmationSticker;
+
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        Instantiate(confirmationSticker, this.transform);
     }
 
     // Update is called once per frame

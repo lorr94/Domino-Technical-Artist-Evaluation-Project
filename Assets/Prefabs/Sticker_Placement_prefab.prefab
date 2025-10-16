@@ -94,6 +94,8 @@ MonoBehaviour:
     type: 2}
   _spriteName: texture
   _confirmationMenu: {fileID: 0}
+  confirmHandler: {fileID: 0}
+  stickerImage: {fileID: 0}
 --- !u!1 &827367237011402487
 GameObject:
   m_ObjectHideFlags: 0
@@ -188,6 +190,8 @@ MonoBehaviour:
     type: 2}
   _spriteName: crown empty
   _confirmationMenu: {fileID: 0}
+  confirmHandler: {fileID: 0}
+  stickerImage: {fileID: 0}
 --- !u!1 &1242473498241253943
 GameObject:
   m_ObjectHideFlags: 0
@@ -282,6 +286,8 @@ MonoBehaviour:
     type: 2}
   _spriteName: crown empty
   _confirmationMenu: {fileID: 0}
+  confirmHandler: {fileID: 0}
+  stickerImage: {fileID: 0}
 --- !u!1 &2685204618125199822
 GameObject:
   m_ObjectHideFlags: 0
@@ -376,6 +382,8 @@ MonoBehaviour:
     type: 2}
   _spriteName: crown empty
   _confirmationMenu: {fileID: 0}
+  confirmHandler: {fileID: 0}
+  stickerImage: {fileID: 0}
 --- !u!1 &3029838116024036366
 GameObject:
   m_ObjectHideFlags: 0
@@ -470,6 +478,8 @@ MonoBehaviour:
     type: 2}
   _spriteName: crown empty
   _confirmationMenu: {fileID: 0}
+  confirmHandler: {fileID: 0}
+  stickerImage: {fileID: 0}
 --- !u!1 &3807444115694443397
 GameObject:
   m_ObjectHideFlags: 0
@@ -564,6 +574,8 @@ MonoBehaviour:
     type: 2}
   _spriteName: crown empty
   _confirmationMenu: {fileID: 0}
+  confirmHandler: {fileID: 0}
+  stickerImage: {fileID: 0}
 --- !u!1 &3946741930345135588
 GameObject:
   m_ObjectHideFlags: 0
@@ -657,6 +669,8 @@ MonoBehaviour:
     type: 2}
   _spriteName: ZEN BUDHIST
   _confirmationMenu: {fileID: 0}
+  confirmHandler: {fileID: 0}
+  stickerImage: {fileID: 0}
 --- !u!1 &5045180042672441708
 GameObject:
   m_ObjectHideFlags: 0
@@ -751,6 +765,8 @@ MonoBehaviour:
     type: 2}
   _spriteName: crown empty
   _confirmationMenu: {fileID: 0}
+  confirmHandler: {fileID: 0}
+  stickerImage: {fileID: 0}
 --- !u!1 &5367653198321679115
 GameObject:
   m_ObjectHideFlags: 0
@@ -846,6 +862,9 @@ MonoBehaviour:
   _spriteName: SLOT
   _confirmationMenu: {fileID: 8427454383340469428, guid: 5b4c9b3e8d09d064c9afb7ad697c8b62,
     type: 3}
+  confirmHandler: {fileID: 0}
+  stickerImage: {fileID: 1658750114736572992, guid: f80a07037fe6e234b8f508a4b72ba24b,
+    type: 3}
 --- !u!1 &5478506796137284202
 GameObject:
   m_ObjectHideFlags: 0
@@ -940,6 +959,8 @@ MonoBehaviour:
     type: 2}
   _spriteName: crown empty
   _confirmationMenu: {fileID: 0}
+  confirmHandler: {fileID: 0}
+  stickerImage: {fileID: 0}
 --- !u!1 &5905429184244006444
 GameObject:
   m_ObjectHideFlags: 0
@@ -1034,6 +1055,8 @@ MonoBehaviour:
     type: 2}
   _spriteName: divider
   _confirmationMenu: {fileID: 0}
+  confirmHandler: {fileID: 0}
+  stickerImage: {fileID: 0}
 --- !u!1 &7054790863369634154
 GameObject:
   m_ObjectHideFlags: 0
@@ -1128,6 +1151,8 @@ MonoBehaviour:
     type: 2}
   _spriteName: crown empty
   _confirmationMenu: {fileID: 0}
+  confirmHandler: {fileID: 0}
+  stickerImage: {fileID: 0}
 --- !u!1 &7913284590568560193
 GameObject:
   m_ObjectHideFlags: 0
@@ -1222,6 +1247,8 @@ MonoBehaviour:
     type: 2}
   _spriteName: crown empty
   _confirmationMenu: {fileID: 0}
+  confirmHandler: {fileID: 0}
+  stickerImage: {fileID: 0}
 --- !u!1 &8809419159501326824
 GameObject:
   m_ObjectHideFlags: 0
