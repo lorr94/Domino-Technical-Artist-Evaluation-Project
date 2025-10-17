@@ -26,7 +26,7 @@ public class StickerGeneration : MonoBehaviour
 
             if (stickerComponent != null)
             {
-                // Randomly select one of the 5 crown configurations (index 1 to 5)
+                
                 int randomIndex = Random.Range(0, possibleIndices.Length);
                 stickerComponent.stickerIndex = possibleIndices[randomIndex];
             }
