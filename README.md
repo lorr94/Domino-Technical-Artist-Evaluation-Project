@@ -6,6 +6,8 @@ Notes:
 * For proper testing via Play, use in Game window 1080x1920 resolution aspect ratio
 * "Animate the colors of the frame (using a shader is recommended )"
   - For this tasks, I used a shader graph for a pulsating effect, instead rainbow-like swirle effects, due to knowledge limitations at the time
+* "Make sure the sequence is as close as possible to the Reference provided"
+  - Due to time constraints, only sticker placement animation was created, in addition to the buttons behaviour and conditions.
 
 Tasks:
 Main Window
@@ -29,7 +31,6 @@ Ref_Seq_02
 * When pressing the Green button we should see a sequence as seen in the reference
 * Use a Timeline to create an animation seq (Ref_Seq_02) of the sticker transformation
 * Make sure the sequence is as close as possible to the Reference provided
-  - Due to time constraints, only sticker placement animation was created, in addition to the buttons behaviour and conditions.
 
 
 
